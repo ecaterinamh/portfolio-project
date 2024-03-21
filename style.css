@@ -118,8 +118,9 @@ nav {
 }
 
 #section--3 .section__container,
-#section--4 .section__container {
-  margin: 4rem auto;
+#section--4 .section__container,
+.section--education {
+  margin: 2rem auto;
 }
 
 .section__container {

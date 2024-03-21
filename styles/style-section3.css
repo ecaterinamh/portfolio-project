@@ -168,7 +168,7 @@
     height: 3.5rem;
   }
 
-  .project__card--body:hover .project__card-details > h3 {
+  .project__card--body:hover .project__card--details > h3 {
     margin-top: 0;
   }
 

@@ -11,20 +11,18 @@
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 5px;
-  padding: 2.5rem;
   margin-bottom: 2rem;
   display: grid;
   grid-template-columns: 50% 50%;
 }
 
-.contact__content--left {
+.contact__content--left,
+.contact__content--right {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-  border-radius: 5px;
-  padding: 2rem;
   font-size: 1.5rem;
 }
 
@@ -32,16 +30,14 @@
 .contact__content--right {
   background-color: rgba(105, 105, 105, 0);
   color: white;
-  border-radius: 5px;
-  padding: 2rem;
+  padding: 4rem;
   text-align: left;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
   transition: all 0.2s ease-in-out;
 }
 
 .contact__content--left p,
 .contact__content--left > a {
-  margin-bottom: 0.5rem;
   color: white;
   text-decoration: none;
   font-size: 1rem;
@@ -59,7 +55,7 @@
 input,
 textarea {
   width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   padding: 1rem 1.5rem;
   background-color: #00000000;
   border: none;
