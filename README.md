@@ -6,7 +6,7 @@ My very first portfolio after I freshly graduated the Web Development Course at 
 
 ## DEMO
 
-To view the project deployed on Netlify, please click on <a href='https://portfolio-project-em.netlify.app' target='_blank'>Resume</a>.
+To view the project deployed on Netlify, please click on <a href='https://portfolio-project-em.netlify.app' target='_blank'>PORTFOLIO</a>.
 
 ## Table of contents
 

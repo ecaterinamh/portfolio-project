@@ -4,15 +4,24 @@ const projects = [
     id: 1,
     title: "Portfolio",
     description:
-      "Portfolio is a SPA which includes a short resume about my ambitious learning path, skills and projects. ",
-    techStack:
-      "React | React Bootstrap | JS | NodeJs | npm | Bootstrap | CSS3 | HTML5",
-    image: "./assets/photos/desktop-preview.png",
-    liveUrl: "https://resume-project-me.netlify.app/",
-    codeUrl: "https://github.com/ecaterinamh/resume",
+      "This is my very first portfolio after I freshly graduated the Web Development Course at IT School.",
+    techStack: "JAVASCRIPT | DOM | CSS3 | HTML5",
+    image: "./assets/photos/desktop-image.png",
+    liveUrl: "https://portfolio-project-em.netlify.app/",
+    codeUrl: "https://github.com/ecaterinamh/portfolio-project",
   },
   {
     id: 2,
+    title: "BANKIST APP",
+    description:
+      "This app was made while I was JavaScript by takind the Course of Jonas Schmedtmann on Udemy.",
+    techStack: " JAVASCRIPT | DOM | CSS3 | HTML5",
+    image: "./assets/photos/bankist-web-app.png",
+    liveUrl: "https://bankist-website-app-js.netlify.app/",
+    codeUrl: "https://github.com/ecaterinamh/bankist-website",
+  },
+  {
+    id: 3,
     title: "Weather App",
     description:
       "This is an weather app made during the Web Development course at IT School.",
@@ -23,17 +32,27 @@ const projects = [
     codeUrl: "https://github.com/ecaterinamh/project-it-school-weather-app",
   },
   {
-    id: 3,
+    id: 4,
     title: "Game: Roll The Dice",
     description:
-      "This game wad made while I was studying the JavaScript Course of Jonas Schmedtmann on Udemy.",
-    techStack: "JS | DOM | CSS3 | HTML5",
+      "This game was made while I was studying the JavaScript Course of Jonas Schmedtmann on Udemy.",
+    techStack: "JAVASCRIPT | DOM | CSS3 | HTML5",
     image: "./assets/photos/rollthedice.png",
     liveUrl: "https://game-rollthedice.netlify.app/",
     codeUrl: "https://github.com/ecaterinamh/gamerollthedice",
   },
   {
-    id: 4,
+    id: 5,
+    title: "IT SCHOOL PAGE",
+    description:
+      "This site was made while I was taking the Web Development Course online of IT School.",
+    techStack: "CSS3 | HTML5",
+    image: "./assets/photos/it-school-site.png",
+    liveUrl: "https://copy-of-itschool-site.netlify.app",
+    codeUrl: "https://github.com/ecaterinamh/it-school-project",
+  },
+  {
+    id: 6,
     title: "Perfume Card",
     description:
       "This was a challenge made from the site Front End Mentor. I built a perfume card by using flexbox.",
