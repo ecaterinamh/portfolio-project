@@ -1,0 +1,145 @@
+.section__contact__container {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 5px;
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.contact__content--left {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 5px;
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.contact__content--left,
+.contact__content--right {
+  background-color: rgba(105, 105, 105, 0);
+  color: white;
+  border-radius: 5px;
+  padding: 2rem;
+  text-align: left;
+  margin-bottom: 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact__content--left p,
+.contact__content--left > a {
+  margin-bottom: 0.5rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.contact__content--left > a:hover {
+  color: rgb(168, 165, 165);
+}
+
+.contact__content--right p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 1rem 1.5rem;
+  background-color: #00000000;
+  border: none;
+  border-bottom: 2px solid #fffdfd9a;
+  outline: none;
+  color: #fff;
+}
+
+input::placeholder {
+  font-family: "Poppins", sans-serif;
+}
+
+input:focus,
+textarea:focus {
+  border: none;
+  background-color: #0000007d;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  color: #ffffff6f;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+  color: red;
+  position: relative;
+  top: -1.2rem;
+  font-size: 0.8rem;
+}
+
+.submit_message {
+  color: #fff;
+  position: relative;
+  top: -1.2rem;
+  font-size: 0.8rem;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 850px) {
+  .section__contact__container {
+    grid-template-columns: 100%;
+    grid-template-rows: 2;
+  }
+
+  .contact__content--left {
+    grid-row: 1;
+  }
+
+  .contact__content--right {
+    grid-row: 2;
+  }
+
+  .contact-container {
+    max-width: 40rem;
+    min-width: 24rem;
+  }
+
+  .cover-picture {
+    height: 10rem;
+  }
+
+  .personal-contact {
+    width: 30rem;
+    height: 35.5rem;
+  }
+
+  .form-contact {
+    width: 30rem;
+    height: 32rem;
+  }
+}
+
+/* media queries for mobile screens */
+@media only screen and (max-width: 600px) {
+  .section__contact__container {
+    padding: 1rem;
+  }
+}

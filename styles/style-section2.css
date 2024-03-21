@@ -1,0 +1,262 @@
+.section__description {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../assets/photos/cover-about.jpeg");
+  opacity: 1;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  padding: 5rem;
+}
+
+.section__description > p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* skills styling */
+.section__container--skills {
+  width: 100%;
+  height: auto;
+  background-color: aqua;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+  border-radius: 5px;
+  padding: 1.5rem;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.html5,
+.css3,
+.javascript,
+.react,
+.bootstrap,
+.git,
+.nodejs {
+  width: 4rem;
+  height: 4rem;
+  border-radius: unset;
+}
+
+.section__skills--list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem;
+  margin-bottom: 0;
+}
+
+li > p {
+  margin-bottom: 0;
+}
+
+.section__skills--list > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 2rem;
+  filter: grayscale(1);
+  transition: all 0.2s ease-out;
+}
+
+.section__skills--list > li:hover {
+  filter: grayscale(0);
+  cursor: pointer;
+}
+
+/* education styling */
+.section__container--courses {
+  position: relative;
+  height: auto;
+  padding: 0rem;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.section__container--courses::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  left: 50%;
+  z-index: 1;
+}
+
+.card__course {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  position: relative;
+  padding: 0 1rem;
+}
+
+.content__course {
+  height: auto;
+  position: relative;
+  padding: 20px 30px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.content__course p:first-of-type {
+  margin: 1rem 0;
+}
+
+.left__container {
+  left: 0;
+}
+
+.right__container {
+  left: 50%;
+}
+
+.point {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+}
+
+.left__container > .point {
+  left: calc(100% - 10px);
+  top: 50%;
+}
+
+.right__container .point {
+  right: calc(100% - 11px);
+  top: 50%;
+}
+
+.content__course h5 {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.content__course p {
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.itschool-logo,
+.scoalainformala-logo,
+.codecademy-logo,
+.udemy-logo {
+  width: 7rem;
+  height: 2.5rem;
+  vertical-align: bottom;
+  border-radius: unset;
+}
+
+.itschool-logo {
+  margin-top: 0.5rem;
+}
+
+.scoalainformala-logo {
+  margin-top: 1rem;
+  width: 7rem;
+  height: 3rem;
+  background: #fff;
+}
+
+.codecademy-logo {
+  height: 1.5rem;
+  margin-top: 1rem;
+}
+
+.udemy-logo {
+  margin-top: 0.5rem;
+  height: 2.1rem;
+  width: 5rem;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1210px) {
+  .course {
+    width: 45%;
+    max-height: 25rem;
+    min-height: 25rem;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .section__container--courses::after {
+    left: 0%;
+  }
+
+  .left__container .point,
+  .right__container .point {
+    left: -9px;
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+  .card__course {
+    width: 100%;
+  }
+
+  .right__container {
+    left: 0%;
+    margin: 1rem 0;
+  }
+
+  .right__container:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section__description {
+    padding: 2.5rem;
+  }
+
+  .section__description > p {
+    font-size: 1rem;
+  }
+
+  .section__skills--list > li {
+    padding: 1rem 1.5rem;
+  }
+
+  .li > img {
+    width: 4rem;
+    height: 8rem;
+  }
+
+  .html5,
+  .css3,
+  .javascript,
+  .react,
+  .bootstrap,
+  .git,
+  .nodejs {
+    width: 3rem;
+    height: 3rem;
+    border-radius: unset;
+  }
+}
