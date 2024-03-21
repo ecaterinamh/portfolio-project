@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-# Portfolio App
+# Portfolio
 
 My very first portfolio after I freshly graduated the Web Development Course at IT School.
 
