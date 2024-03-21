@@ -58,7 +58,7 @@
   font-weight: 500;
   margin-bottom: 3rem;
   margin-top: 1rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 30px;
   letter-spacing: 2px;
   color: #fff;
@@ -69,7 +69,7 @@
 .project__card--details p {
   color: #fff;
   text-align: justify;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 0.5rem;
 }
 
