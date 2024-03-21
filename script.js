@@ -6,7 +6,7 @@ const navlinks = document.querySelector(".nav__links");
 const section1 = document.querySelector(".section--1");
 const header = document.querySelector("header");
 const nav = document.querySelector("nav");
-const sections = document.querySelectorAll(".section");
+const handlehovers = document.querySelectorAll(".handlehover");
 
 // FUNCTIONS
 
@@ -78,7 +78,7 @@ const sectionObserver = new IntersectionObserver(revealSection, {
   threshold: 0.15,
 });
 
-sections.forEach((section) => {
+handlehovers.forEach((section) => {
   sectionObserver.observe(section);
   section.classList.add("section--hidden");
 });
