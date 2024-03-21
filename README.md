@@ -2,7 +2,7 @@
 
 # Portfolio
 
-My very first portfolio after I freshly graduated the Web Development Course at IT School.
+Tis is my very first portfolio after I freshly graduated the Web Development Course at IT School.
 
 ## DEMO
 
